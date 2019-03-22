@@ -1,0 +1,28 @@
+arch-info
+---------
+
+This program gives some info on the architecture.
+
+Compile and run:
+
+    cc -o arch-info arch-info.c
+    ./arch-info
+
+Result (on an x86-64 CPU):
+
+    Endianness:
+    -----------
+    This processor is using little-endian order.
+    The integer 0x1234abcd is stored as [cd ab 34 12] in memory.
+
+    Data type sizes:
+    ----------------
+          pointer   8 bytes
+             char   1 bytes
+        short int   2 bytes
+              int   4 bytes
+         long int   8 bytes
+    long long int   8 bytes
+            float   4 bytes
+           double   8 bytes
+      long double  16 bytes
